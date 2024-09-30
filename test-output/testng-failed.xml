@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="positive(failed)">
+    <groups>
+      <run>
+        <include name="dataTestingJson2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="page_object_model.StandAlone">
+        <methods>
+          <include name="close"/>
+          <include name="dataTestJson2" invocation-numbers="0"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- page_object_model.StandAlone -->
+    </classes>
+  </test> <!-- positive(failed) -->
+</suite> <!-- Failed suite [Suite] -->

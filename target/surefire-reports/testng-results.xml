@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-20T12:18:53 IST" name="Suite" finished-at="2024-09-20T12:19:31 IST" duration-ms="38104">
+    <groups>
+      <group name="dataTestingJson2">
+        <method signature="StandAlone.dataTestJson2(java.util.HashMap)[pri:0, instance:page_object_model.StandAlone@145f66e3]" name="dataTestJson2" class="page_object_model.StandAlone"/>
+      </group> <!-- dataTestingJson2 -->
+    </groups>
+    <test started-at="2024-09-20T12:18:53 IST" name="positive" finished-at="2024-09-20T12:19:31 IST" duration-ms="38077">
+      <class name="page_object_model.StandAlone">
+        <test-method is-config="true" signature="login()[pri:0, instance:page_object_model.StandAlone@145f66e3]" started-at="2024-09-20T12:18:53 IST" name="login" finished-at="2024-09-20T12:19:00 IST" duration-ms="6783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="dataTestJson2(java.util.HashMap)[pri:0, instance:page_object_model.StandAlone@145f66e3]" started-at="2024-09-20T12:19:00 IST" name="dataTestJson2" data-provider="getDataJson2" finished-at="2024-09-20T12:19:09 IST" duration-ms="9560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"password":"Iamking@000","product":"ZARA COAT 3","email":"anshika@gmail.com"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataTestJson2 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:page_object_model.StandAlone@145f66e3]" started-at="2024-09-20T12:19:09 IST" name="close" finished-at="2024-09-20T12:19:11 IST" duration-ms="1260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="login()[pri:0, instance:page_object_model.StandAlone@145f66e3]" started-at="2024-09-20T12:19:11 IST" name="login" finished-at="2024-09-20T12:19:20 IST" duration-ms="9775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="dataTestJson2(java.util.HashMap)[pri:0, instance:page_object_model.StandAlone@145f66e3]" started-at="2024-09-20T12:19:20 IST" name="dataTestJson2" data-provider="getDataJson2" finished-at="2024-09-20T12:19:30 IST" duration-ms="9383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"password":"Iamking@000","product":"ADIDAS ORIGINAL","email":"anshika@gmail.com"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataTestJson2 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:page_object_model.StandAlone@145f66e3]" started-at="2024-09-20T12:19:30 IST" name="close" finished-at="2024-09-20T12:19:31 IST" duration-ms="1271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- page_object_model.StandAlone -->
+    </test> <!-- positive -->
+    <test started-at="2024-09-20T12:19:31 IST" name="negative" finished-at="2024-09-20T12:19:31 IST" duration-ms="0">
+    </test> <!-- negative -->
+  </suite> <!-- Suite -->
+</testng-results>
